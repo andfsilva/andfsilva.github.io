@@ -820,7 +820,7 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
   display:inline; 
   position:absolute; 
   bottom: 0;
-  opacity: 50%;
+  opacity: 75%;
   align-content: center; 
   margin-left: auto; 
   margin-right: auto; 
@@ -832,7 +832,7 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
 
 p {
   text-align: center;
-  opacity: 50%;
+  opacity: 75%;
   font-size:12px;
 }
 
