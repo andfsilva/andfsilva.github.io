@@ -398,20 +398,16 @@
     if (scene.data.name == ("BC - Introdução")){    
       document.getElementById("iFrameBu").setAttribute('src', 'video/introdução.mp4');
       document.querySelector("video").style.display="inline";
-
-
-
     } else {
       document.querySelector("video").style.display="none";
-
+      document.querySelector("video").pause();
     }
-    
-    
-    
     
     if (scene.data.name == "BC - Introdução"){
       document.getElementById("audioDescription").style.display="none";
       document.getElementById("audioInformation").style.display="none";
+
+//https://www.w3schools.com/Jsref/tryit.asp?filename=tryjsref_audio_pause
 
     } else if (scene.data.name == "BC - Entrada") {
         document.getElementById("myAudioDescription").setAttribute('src', 'audio/01audiodescricao.mp3');
